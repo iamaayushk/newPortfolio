@@ -26,7 +26,7 @@ const HeroParallax = ({ products }) => {
   return (
     <div
       ref={ref}
-      className="h-[250vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]">
+      className="h-[250vh] py-30 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]">
       <Header />
       <motion.div
         style={{
@@ -58,10 +58,10 @@ const HeroParallax = ({ products }) => {
 export const Header = () => {
   return (
     <div id="projects" className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
+      <h1 className="text-2xl md:text-7xl font-bold text-white">
         My Web <br /> Project Showcase
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
+      <p className="max-w-2xl text-base md:text-xl mt-8 text-neutral-200">
         Welcome to a curated collection of my web development projects.
       </p>
     </div>
@@ -74,7 +74,7 @@ export const ProductCard = ({ product, translate }) => {
   return (
     <motion.div
       style={{ x: translate }}
-      whileHover={{ y: -20 }}
+      whileHover={{ y: -30 }}
       key={product.title}
       className="group/product h-96 w-[30rem] relative shrink-0">
       <Link to={product.link} className="block group-hover/product:shadow-2xl">
