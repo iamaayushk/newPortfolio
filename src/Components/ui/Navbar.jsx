@@ -24,7 +24,7 @@ function Navbar() {
       className={`fixed top-0 left-0 w-full sm:top-5 sm:left-1/2 sm:transform sm:-translate-x-1/2 sm:w-[95%] border-b sm:border border-gray-700 sm:rounded-4xl z-50 transition-colors duration-300
       ${isScrolled
         ? 'sm:backdrop-blur-md shadow-lg'
-        : 'bg-black/90 dark:bg-black/90 border-gray-800'
+        : 'bg-black/90 border-gray-800'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
