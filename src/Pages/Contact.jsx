@@ -32,7 +32,7 @@ const ContactForm = () => {
             <form
                 ref={form}
                 onSubmit={handleSubmit}
-                className="max-w-xl mx-auto p-6 space-y-6 bg-white dark:bg-zinc-900 rounded-lg shadow-md"
+                className="max-w-xl mx-auto p-6 space-y-6 bg-zinc-900 rounded-lg shadow-md"
                 id="contact"
             >
                 <div className="grid w-full items-center gap-1.5">
