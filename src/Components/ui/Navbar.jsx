@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import Logo from './Logo.jsx'; 
+import Logo from './Logo.jsx'; 
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -32,7 +32,7 @@ function Navbar() {
           
          
           <div className="flex items-center">
-            {/* <Logo /> */}<h1 className='text-white text-2xl'>Aayush</h1>
+            <Logo />
           </div>
 
           {/* Desktop Links */}
