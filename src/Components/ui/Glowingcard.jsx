@@ -8,7 +8,7 @@ function GlowingEffectDemoSecond() {
 
 <GridItem
   area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
-  icon={<Code2 className="h-4 w-4 text-black dark:text-neutral-400" />}
+  icon={<Code2 className="h-4 w-4 text-neutral-400" />}
   title="MERN Stack"
   description="Built full-stack web apps using MongoDB, Express.js, React.js, and Node.js. Used it in multiple production-ready projects like ShapeXplore and MovieMania."
 />

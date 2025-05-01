@@ -4,10 +4,10 @@ function About() {
   return (
     <section
       id="about"
-      className="relative flex min-h-screen w-full flex-col items-center justify-start  bg-black scroll-mt-20 py-10 sm:py-20 overflow-hidden"
+      className="relative flex min-h-screen w-full flex-col items-center justify-start  bg-black scroll-mt-20 py-10 sm:py-20 overflow-hidden border-t-1 border-zinc-500"
     >
       {/* Grid Background */}
-      <div className="absolute inset-0 z-0 bg-[radial-gradient(circle,rgba(0,0,0,0.05)_1px,transparent_1px)] [background-size:20px_20px] dark:bg-[radial-gradient(circle,rgba(255,255,255,0.1)_1px,transparent_1px)]" />
+      <div className="absolute inset-0 z-0 bg-[radial-gradient(circle,rgba(0,0,0,0.05)_1px,transparent_1px)] [background-size:20px_20px] dark:bg-[radial-gradient(circle,rgba(255,255,255,0.2)_1px,transparent_1px)]" />
 
       {/* Sticky Title */}
       <h2 className="sticky top-0 z-30 mt-0 bg-black bg-opacity-80 px-4 py-4 backdrop-blur-sm bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text text-4xl font-bold text-transparent sm:text-6xl text-center">
