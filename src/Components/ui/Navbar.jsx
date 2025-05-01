@@ -37,11 +37,11 @@ function Navbar() {
 
           {/* Desktop Links */}
           <div className="hidden md:flex space-x-8">
-            <a href="#home" className={navLinkClasses}>Home</a>
-            <a href="#about" className={navLinkClasses}>About</a>
-            <a href="#skills" className={navLinkClasses}>Skills</a>
-            <a href="#projects" className={navLinkClasses}>Projects</a>
-            <a href="#contact" className={navLinkClasses}>Contact</a>
+            <a href="#home" className={navLinkClasses} onClick={(e) => {e.preventDefault(); document.getElementById('home').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}}>Home</a>
+            <a href="#about" className={navLinkClasses} onClick={(e) => {e.preventDefault(); document.getElementById('about').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}}>About</a>
+            <a href="#skills" className={navLinkClasses} onClick={(e) => {e.preventDefault(); document.getElementById('skills').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}}>Skills</a>
+            <a href="#projects" className={navLinkClasses} onClick={(e) => {e.preventDefault(); document.getElementById('projects').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}}>Projects</a>
+            <a href="#contact" className={navLinkClasses} onClick={(e) => {e.preventDefault(); document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}}>Contact</a>
           </div>
 
           {/* Hamburger Button (Mobile) */}
@@ -58,16 +58,16 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden px-4 pb-4 pt-2 bg-gray-800 dark:bg-[#040508] transition-all duration-300 space-y-2 w-full rounded-lg shadow-lg">
-          <a href="#home" onClick={toggleMenu} className={`${navLinkClasses} block text-center`}>Home</a>
-          <a href="#about" onClick={toggleMenu} className={`${navLinkClasses} block text-center`}>About</a>
-          <a href="#skills" onClick={toggleMenu} className={`${navLinkClasses} block text-center`}>Skills</a>
-          <a href="#projects" onClick={toggleMenu} className={`${navLinkClasses} block text-center`}>Projects</a>
-          <a href="#contact" onClick={toggleMenu} className={`${navLinkClasses} block text-center`}>Contact</a>
-        </div>
-      )}
+          {/* Mobile Menu */}
+          {isOpen && (
+            <div className="md:hidden px-4 pb-4 pt-2 bg-gray-800 dark:bg-[#040508] transition-all duration-300 space-y-2 w-full rounded-lg shadow-lg">
+              <a href="#home" onClick={(e) => {e.preventDefault(); document.getElementById('home').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}} className={`${navLinkClasses} block text-center`}>Home</a>
+              <a href="#about" onClick={(e) => {e.preventDefault(); document.getElementById('about').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}} className={`${navLinkClasses} block text-center`}>About</a>
+              <a href="#skills" onClick={(e) => {e.preventDefault(); document.getElementById('skills').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}} className={`${navLinkClasses} block text-center`}>Skills</a>
+              <a href="#projects" onClick={(e) => {e.preventDefault(); document.getElementById('projects').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}} className={`${navLinkClasses} block text-center`}>Projects</a>
+              <a href="#contact" onClick={(e) => {e.preventDefault(); document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}} className={`${navLinkClasses} block text-center`}>Contact</a>
+            </div>
+          )}
     </nav>
   );
 }

@@ -4,9 +4,6 @@ import { useNavigate } from "react-router-dom";
 export const Spotlight = () => {
   const navigate = useNavigate();
 
-  const projectView = () => {
-    navigate("#projects");
-  };
 
   return (
     <div id="home" className="relative w-full h-screen bg-gradient-to-br from-black via-gray-900 to-black flex flex-col items-center justify-center text-center text-white px-4">
@@ -20,12 +17,12 @@ export const Spotlight = () => {
         Code. Create. Repeat.
       </p>
 
-      <button
-  onClick={projectView}
+      <a
+  href='#projects'
   className="px-8 py-3 cursor-pointer bg-gradient-to-r from-blue-800 to-blue-400 hover:from-blue-400 hover:to-blue-800 transition-colors duration-300 rounded-full text-white font-semibold text-lg shadow-lg"
 >
   View Projects
-</button>
+</a>
 
 
       {/* Optional background grid */}
