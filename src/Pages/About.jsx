@@ -39,7 +39,7 @@ function About() {
 
           <div className="w-full flex justify-center sm:justify-start">
             <a
-              href="../assets/resume.pdf"
+              href="/resume.pdf"
               download
               className="inline-block mt-2 px-6 py-3 bg-sky-700 hover:bg-gray-900 text-white rounded-xl shadow-md transition-all duration-300"
             >

@@ -16,12 +16,12 @@ const ContactForm = () => {
             'service_l0hqwxe',
             'template_7qezw95',
             form.current,
-            'EF5mwqdRXvu8ko0jc'
+            'G316im1N-D5PZY0QR'
         ).then(() => {
-            toast.success("Message sent successfully! ✅");
+            toast.success("Message sent successfully! ");
             form.current.reset(); // Clears the form
         }).catch((error) => {
-            toast.error("Oops! Something went wrong ❌");
+            toast.error("Oops! Something went wrong ");
             console.error("Email Error:", error.text);
         });
     };
