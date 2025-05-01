@@ -4,13 +4,13 @@ function About() {
   return (
     <section
       id="about"
-      className="relative flex min-h-screen w-full flex-col items-center justify-start bg-white dark:bg-black scroll-mt-20 py-10 sm:py-20 overflow-hidden"
+      className="relative flex min-h-screen w-full flex-col items-center justify-start  bg-black scroll-mt-20 py-10 sm:py-20 overflow-hidden"
     >
       {/* Grid Background */}
       <div className="absolute inset-0 z-0 bg-[radial-gradient(circle,rgba(0,0,0,0.05)_1px,transparent_1px)] [background-size:20px_20px] dark:bg-[radial-gradient(circle,rgba(255,255,255,0.1)_1px,transparent_1px)]" />
 
       {/* Sticky Title */}
-      <h2 className="sticky top-0 z-30 mt-0 bg-white dark:bg-black bg-opacity-80 px-4 py-4 backdrop-blur-sm bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text text-4xl font-bold text-transparent sm:text-6xl text-center">
+      <h2 className="sticky top-0 z-30 mt-0 bg-black bg-opacity-80 px-4 py-4 backdrop-blur-sm bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text text-4xl font-bold text-transparent sm:text-6xl text-center">
         About Me
       </h2>
 
@@ -26,7 +26,7 @@ function About() {
         </div>
 
         {/* Text on the right */}
-        <div className="w-full md:w-2/3 text-black dark:text-white text-base sm:text-lg max-w-2xl">
+        <div className="w-full md:w-2/3 text-white text-base sm:text-lg max-w-2xl">
           <p className="mb-4">
             Hello! I'm <strong>Aayush Kumar Singh</strong>, a full-stack developer with a strong passion for building innovative digital experiences.
           </p>
