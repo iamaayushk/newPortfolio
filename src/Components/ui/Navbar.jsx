@@ -60,7 +60,7 @@ function Navbar() {
 
           {/* Mobile Menu */}
           {isOpen && (
-            <div className="md:hidden px-4 pb-4 pt-2 bg-gray-800 dark:bg-[#040508] transition-all duration-300 space-y-2 w-full rounded-lg shadow-lg">
+            <div className="md:hidden px-4 pb-4 pt-2 bg-[#000000] transition-all duration-300 space-y-2 w-full rounded-lg shadow-lg">
               <a href="#home" onClick={(e) => {e.preventDefault(); document.getElementById('home').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}} className={`${navLinkClasses} block text-center`}>Home</a>
               <a href="#about" onClick={(e) => {e.preventDefault(); document.getElementById('about').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}} className={`${navLinkClasses} block text-center`}>About</a>
               <a href="#skills" onClick={(e) => {e.preventDefault(); document.getElementById('skills').scrollIntoView({behavior: 'smooth'}); setIsOpen(false);}} className={`${navLinkClasses} block text-center`}>Skills</a>
