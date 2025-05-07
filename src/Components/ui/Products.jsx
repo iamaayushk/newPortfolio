@@ -23,12 +23,12 @@ export const products = [
   },
   {
     title: "MovieMania",
-    link: "https://editorially.org",
+    link: "https://github.com/iamaayushk",
     thumbnail: "/Moviemania.webp",
   },
   {
     title: "Design store",
-    link: "https://editrix.ai",
+    link: "https://iamaayushk.github.io/DesignStore/",
     thumbnail: "/editrix.webp",
   },
   {
@@ -38,12 +38,12 @@ export const products = [
   },
   {
     title: "Constella",
-    link: "https://algochurn.com",
+    link: "https://github.com/iamaayushk/constellation-weaver",
     thumbnail: "/constella.webp",
   },
   {
     title: "Movie Mania",
-    link: "https://ui.aceternity.com",
+    link: "https://github.com/iamaayushk",
     thumbnail: "/moviemania2.webp",
   },
   {
