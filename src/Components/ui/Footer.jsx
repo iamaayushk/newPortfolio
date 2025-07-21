@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
-          <p>© {new Date().getFullYear()} Aayush Kumar SIngh. All rights reserved</p>
+          <p>© {new Date().getFullYear()} Aayush Kumar Singh. All rights reserved</p>
         </div>
       </div>
     </footer>
